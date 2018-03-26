@@ -149,6 +149,10 @@ Variation1=Designator=R2|UniqueId=\HMFFIHGI|Kind=1|AlternatePart=
 Variation2=Designator=R8|UniqueId=\BDIEQBGQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for pira-smart-PCB\Design Rule Check - pira-smart-pcb.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Company
 Value=IRNAS
