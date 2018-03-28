@@ -150,10 +150,10 @@ OutputName6=Gerber Files
 OutputCategory6=Fabrication
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=1
+OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
@@ -163,14 +163,38 @@ OutputName7=NC Drill Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
-OutputEnabled7_OutputMedium3=2
+OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes
+OutputType8=BOM_PartType
+OutputName8=Bill of Materials production
+OutputCategory8=Report
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=1
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=1
+OutputEnabled8_OutputMedium4=0
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration8_Name1=ColumnNameFormat
+Configuration8_Item1=CaptionAsName
+Configuration8_Name2=Filter
+Configuration8_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration8_Name3=General
+Configuration8_Item3=OpenExported=False|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Goran\Documents\irnas BOM Purchase Live - designator.xlsx|BatchMode=5|FormWidth=1383|FormHeight=661|SupplierProdQty=4|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration8_Name4=GroupOrder
+Configuration8_Item4=LibRef=True
+Configuration8_Name5=SortOrder
+Configuration8_Item5=Manufacturer 1=Down
+Configuration8_Name6=VisibleOrder
+Configuration8_Item6=Description=141|Quantity=70|Supplier 1=81|Supplier Part Number 1=81|Category=64|LibRef=64|Manufacturer 1=84|Manufacturer Part Number 1=61|Supplier Currency 1=61|Supplier Order Qty 1=61|Supplier Stock 1=61|Supplier Subtotal 1=61|Supplier Unit Price 1=72|Footprint=91|Designator=96
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Goran\Documents\Repositories\pira-smart-hardware\pira-smart-PCB\Project Outputs for pira-smart-PCB\PAGE2-BLE, POWER, LORA.pdf
@@ -200,7 +224,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=
+OutputFilePath3=C:\Users\Goran\Documents\Repositories\pira-smart-hardware\pira-smart-PCB\Project Outputs for pira-smart-PCB\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for pira-smart-PCB
 OutputPathMedia3=
@@ -254,7 +278,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Goran\Documents\Repositories\pira-smart-hardware\pira-smart-PCB\Project Outputs for pira-smart-PCB\PAGE2-BLE, POWER, LORA.pdf
 OpenOutputs2=1
-RelativeOutputPath3=
+RelativeOutputPath3=C:\Users\Goran\Documents\Repositories\pira-smart-hardware\pira-smart-PCB\Project Outputs for pira-smart-PCB\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
