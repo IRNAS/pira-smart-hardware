@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for pira-smart-PCB
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -153,6 +153,82 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for pira-smart-PCB\Design Rule Check - pira-smart-pcb.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for pira-smart-PCB\NC Drill\pira-smart-pcb-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for pira-smart-PCB\NC Drill\pira-smart-pcb-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for pira-smart-PCB\NC Drill\pira-smart-pcb.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for pira-smart-PCB\NC Drill\pira-smart-pcb.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GM29
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for pira-smart-PCB\NC Drill\pira-smart-pcb.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for pira-smart-PCB\Gerber\pira-smart-pcb.RUL
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Company
 Value=IRNAS
@@ -215,7 +291,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for pira-smart-PCB
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
