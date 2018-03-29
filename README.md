@@ -1,7 +1,51 @@
-# pira-smart-hardware
+![irnas_logo](https://github.com/IRNAS/pira-smart-hardware/blob/master/Pics/irnas_logo.png)
+# PiRa Smart
+## Power in Responsive Applications HAT for Raspberry Pi with BLE, LoRa and RTC for power saving mode
+PiRa Smart is a next generation compact shield for power scheduling on Rasppbery Pi and similar devices with solar and wirelessly powered applications.
 
+![pira_image](https://github.com/IRNAS/pira-smart-hardware/blob/master/Pics/PCB-top-3D-angle.PNG)
+![pira_image](https://github.com/IRNAS/pira-smart-hardware/blob/master/Pics/PCB-top-layout.PNG)
+![pira_image](https://github.com/IRNAS/pira-smart-hardware/blob/master/Pics/PCB-top-3D.PNG)
+![pira_image](https://github.com/IRNAS/pira-smart-hardware/blob/master/Pics/PCB-bottom-3D.PNG)
 
----
+## Features
+
+* Single cell LiPo cell charging of up to 3A (multiple 18650 cells supported) + LifePo4 support
+* Solar panel charging (Voltaic systems 6W panels in parallel recommended)
+* USB charging, compatible with QI wireless chargers
+* Advanced current limiting, to support wide array of chargers
+* Precise charging control via i2c (BQ24296)
+* Battery temperature protection with thermistor
+* Battery reverse polarity protection and fuse (3A)
+* High-current battery output mosfet (for 3G or satellite modems)
+* LoRa RMF95 communication module
+* Nordic nRF51822 based BLE device for FOTA (Firmware Over-The-Air update) and control (MDBT40)
+* Advanced power scheduling for robust applications:
+  * ISL1208 RTC for configurable scheduled boot and timekeeping, with battery backup power supply to save power of the main battery
+  * configurable power-up sources (RTC, charging, etc.)
+ 
+![pira_block_diagram](https://github.com/IRNAS/PiRa-zero/blob/master/Pics/pira_zero_block_diagram.jpg)
+
+## Connector pinout
+
+ * All ground pins connected, UART, SPI pins connected
+ * Pin 1 - 3V3 - from Pi to board
+ * Pin 2 - 5V - from board to Pi
+ * Pin 3 - SDA
+ * Pin 4 - 5V - from board to Pi
+ * Pin 5 - SCL
+ * Pin 7 - BCM 4 - RTC-Reset- output, reset RTC if needed
+ * Pin 11 - BCM 17 - Timer-EN - input, detect wake-up from RTC
+ * Pin 12 - BCM 18 - CPU self-enable - output, keep high until shutdown
+ * Pin 13 - BCM 27 - Timer done - output, set high to signal timer to power off
+ * Pin 15 - BCM 22 - RTC-EN - input, detect wake-up from RTC
+ * Pin 16 - BCM 23 - GPO-FET - output, enable mosfet output
+ * Pin 22 - BCM 25 - GPIO BCM25 - available at header
+ * Pin 29 - BCM 5 - GPIO BCM 5 - available at header
+ * Pin 31 - BCM 6 - GPIO BCM 6 - available at header
+ * Pin 33 - BCM 13 - LORA reset
+
+![pira_zero_con_diagram](https://github.com/IRNAS/PiRa-zero/blob/master/Pics/pira_zero_con_diagram.jpg)
 
 #### License
 
