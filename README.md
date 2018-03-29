@@ -24,28 +24,43 @@ PiRa Smart is a next generation compact shield for power scheduling on Rasppbery
   * ISL1208 RTC for configurable scheduled boot and timekeeping, with battery backup power supply to save power of the main battery
   * configurable power-up sources (RTC, charging, etc.)
  
-![pira_block_diagram](https://github.com/IRNAS/PiRa-zero/blob/master/Pics/pira_zero_block_diagram.jpg)
+![pira_block_diagram](https://github.com/IRNAS/pira-smart-hardware/blob/master/Pics/pira_smart_block_diagram.png)
 
 ## Connector pinout
 
- * All ground pins connected, UART, SPI pins connected
- * Pin 1 - 3V3 - from Pi to board
- * Pin 2 - 5V - from board to Pi
- * Pin 3 - SDA
- * Pin 4 - 5V - from board to Pi
- * Pin 5 - SCL
- * Pin 7 - BCM 4 - RTC-Reset- output, reset RTC if needed
- * Pin 11 - BCM 17 - Timer-EN - input, detect wake-up from RTC
- * Pin 12 - BCM 18 - CPU self-enable - output, keep high until shutdown
- * Pin 13 - BCM 27 - Timer done - output, set high to signal timer to power off
- * Pin 15 - BCM 22 - RTC-EN - input, detect wake-up from RTC
- * Pin 16 - BCM 23 - GPO-FET - output, enable mosfet output
- * Pin 22 - BCM 25 - GPIO BCM25 - available at header
- * Pin 29 - BCM 5 - GPIO BCM 5 - available at header
- * Pin 31 - BCM 6 - GPIO BCM 6 - available at header
- * Pin 33 - BCM 13 - LORA reset
-
-![pira_zero_con_diagram](https://github.com/IRNAS/PiRa-zero/blob/master/Pics/pira_zero_con_diagram.jpg)
+ * All ground pins connected
+ * Pin 1 -  3V3 - Not Used
+ * Pin 2 -  5V - From board to Pi
+ * Pin 3 -  SDA - Connected to MDBT40 and other I2C devices through 0R resistors
+ * Pin 4 -  5V - From board to Pi
+ * Pin 5 -  SCL - Connected to MDBT40 and other I2C devices through 0R resistors
+ * Pin 7 -  GPIO BCM 4 - Connected to MDBT40, P0.24
+ * Pin 8 -  TXD - Connected to Header P5 (pin 3) and MDBT40, P0.18
+ * Pin 10 - RXD - Connected to Header P5 (pin 4) and MDBT40, P0.17
+ * Pin 11 - GPIO BCM 17 - Connected to MDBT40, P0.25
+ * Pin 12 - GPIO BCM 18 - Connected to MDBT40, P0.30
+ * Pin 13 - GPIO BCM 27 - Connected to MDBT40, P0.28
+ * Pin 15 - GPIO BCM 22 - Connected to MDBT40, P0.29
+ * Pin 16 - GPIO BCM 23 - GPIO-FET - Enable MOSFET output and connected to MDBT40, P0.16
+ * Pin 17 - Not Connected
+ * Pin 18 - GPIO BCM 1  - Connected to LoRa DIO1
+ * Pin 19 - MOSI - Connected to RFM95 (LoRa) and MDBT40, P0.05
+ * Pin 21 - MISO - Connected to RFM95 (LoRa) and MDBT40, P0.06
+ * Pin 22 - GPIO BCM 25 - Connected to MDBT40, P0.15
+ * Pin 23 - SCK  - Connected to RFM95 (LoRa) and MDBT40, P0.07
+ * Pin 24 - CSS  - Connected to RFM95 (LoRa) and MDBT40, P0.14
+ * Pin 26 - GPIO BCM 7 - Connected to LoRa DIO2
+ * Pin 27 - Not Connected
+ * Pin 28 - Not Connected
+ * Pin 29 - GPIO BCM 5  - Connected to Header P5 (pin 7) and MDBT40, P0.10
+ * Pin 31 - GPIO BCM 6  - Connected to Header P5 (pin 8) and MDBT40, P0.09
+ * Pin 32 - GPIO BCM 12 - Connected to LoRa DIO0
+ * Pin 33 - GPIO BCM 13 - LoRa RESET
+ * Pin 35 - GPIO BCM 19 - Connected to MDBT40, P0.01
+ * Pin 36 - GPIO BCM 16 - Connected to MDBT40, P0.02
+ * Pin 37 - GPIO BCM 26 - Connected to MDBT40, P0.03
+ * Pin 38 - GPIO BCM 20 - Connected to MDBT40, P0.04
+ * Pin 40 - Not Connected
 
 #### License
 
