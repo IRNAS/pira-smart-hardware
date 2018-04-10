@@ -1,14 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 12:30:42 PM On 3/28/2018
+Start Output Generation At 11:40:25 AM On 4/10/2018
 
-Output: Bill of Materials production
-Type  : BOM
-From  : Project [pira-smart-PCB.PrjPcb]
-   Generated File[Bill of Materials production-pira-smart-PCB.xlsx]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [V1.0 Assembly] of PCB Document [pira-smart-pcb.PcbDoc]
+   Generated File[Pick Place for pira-smart-pcb(V1.0 Assembly).csv]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:31:20 PM On 3/28/2018
+Finished Output Generation At 11:40:40 AM On 4/10/2018
