@@ -1,14 +1,14 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 11:40:25 AM On 4/10/2018
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [pira-smart-pcb.PcbDoc]
+   Generated File[pira-smart-pcb-RoundHoles.TXT]
+   Generated File[pira-smart-pcb-SlotHoles.TXT]
+   Generated File[pira-smart-pcb.DRL]
+   Generated File[pira-smart-pcb.LDP]
+   Generated File[pira-smart-pcb.DRR]
 
-Output: Generates pick and place files
-Type  : Pick Place
-From  : Variant [V1.0 Assembly] of PCB Document [pira-smart-pcb.PcbDoc]
-   Generated File[Pick Place for pira-smart-pcb(V1.0 Assembly).csv]
 
-
-Files Generated   : 1
+Files Generated   : 5
 Documents Printed : 0
 
-Finished Output Generation At 11:40:40 AM On 4/10/2018
+Finished Output Generation At 11:20:03 AM On 5/11/2018
